@@ -12,6 +12,7 @@ module.exports = app => {
         },
         createTime: {
             type: Date,
+            default: new Date()
         },
         updateTime: {
             type: Date,
